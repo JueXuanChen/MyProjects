@@ -139,12 +139,12 @@ outputs = layers.Dense(units=3)(layer1)
 model = keras.Model(inputs=inputs, outputs=outputs)
 model.summary()
 
+# 設定模型訓練條件與策略，並進行模型訓練，最後儲存訓練好的模型
 model.compile(optimizer=tf.keras.optimizers.Lion(),   #Adam
               loss=tf.keras.losses.CategoricalFocalCrossentropy(alpha=weights,gamma=2.0, from_logits=True),
               metrics=['accuracy']
               )
 
-# 設定模型訓練條件與策略，並進行模型訓練，最後儲存訓練好的模型
 early_stopping = keras.callbacks.EarlyStopping(monitor='val_loss', patience=15, restore_best_weights=True)
 learning_rate_reduction = ReduceLROnPlateau(monitor='val_accuracy', patience=2, verbose=1, factor=0.7, min_lr=0.00000001)
 print("\nStarting model training...")
@@ -214,7 +214,7 @@ sns.heatmap(cm
             , annot=True
             , fmt='d'
             , cmap='Blues'
-            , xticklabels=['0', '1', '2']  # Assuming these correspond to Normal, Abnormal, Non-Sperm
+            , xticklabels=['0', '1', '2']
             , yticklabels=['0', '1', '2']
             )
 plt.xlabel('Predicted Label')

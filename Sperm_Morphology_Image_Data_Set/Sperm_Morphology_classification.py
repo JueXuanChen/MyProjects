@@ -173,6 +173,7 @@ plt.plot(history.history['loss'], label='Training Loss')
 plt.plot(history.history['val_loss'], label='Validation Loss')
 plt.legend()
 plt.title('Training and Validation Loss')
+plt.savefig('Sperm_class_model_Acc_loss.png')
 plt.show()
 
 
@@ -219,6 +220,7 @@ sns.heatmap(cm
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.title('Confusion Matrix')
+plt.savefig('Sperm_class_model_CM.png')
 plt.show()
 
 from sklearn.metrics import accuracy_score

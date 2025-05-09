@@ -29,7 +29,7 @@
 * scikit-learn 1.3.2
 
 ## Output
-
+```
 Model: "model"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -232,3 +232,4 @@ Class 2:
   F1 Score: 0.9379
 
 Overall Accuracy: 0.9185
+```

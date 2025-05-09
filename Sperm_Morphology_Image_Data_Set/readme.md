@@ -1,7 +1,8 @@
 # Sperm Morphology Image Data Set (SMIDS)
 
-## Description 
-  Using SMIDS to fine tuning Inception_v3 model for identifying Sperm Morphology
+## Description
+* Using Sperm Morphology Image Data Set to fine tuning Inception_v3 model for identifying Sperm Morphology
+* **Overall accuracy for testing up to 91.85%**
 
 ## Data
 * Data link: https://www.kaggle.com/datasets/orvile/sperm-morphology-image-data-set-smids/data
@@ -209,7 +210,12 @@ Epoch 59: ReduceLROnPlateau reducing learning rate to 1.1398891217595519e-07.
 Epoch 60/1000
 66/66 [==============================] - 10s 144ms/step - loss: 0.1733 - accuracy: 0.9410 - val_loss: 0.2407 - val_accuracy: 0.9111 - lr: 1.1399e-07
 Saving the model.
+```
+\
+![](https://github.com/JueXuanChen/MyProjects/blob/main/Sperm_Morphology_Image_Data_Set/Sperm_class_model_Acc_Loss.png)
 
+
+```
 Model testing...
 9/9 [==============================] - 2s 159ms/step
 Number of predictions: 270
@@ -233,3 +239,5 @@ Class 2:
 
 Overall Accuracy: 0.9185
 ```
+\
+![](https://github.com/JueXuanChen/MyProjects/blob/main/Sperm_Morphology_Image_Data_Set/Sperm_class_model_CM.png)

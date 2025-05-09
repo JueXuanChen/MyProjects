@@ -48,14 +48,6 @@ _________________________________________________________________
 
 Starting model training...
 Epoch 1/1000
-2025-05-09 18:40:25.694355: I tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:432] Loaded cuDNN version 8907
-2025-05-09 18:40:26.002934: I tensorflow/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
-2025-05-09 18:40:28.116572: I tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:606] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
-2025-05-09 18:40:28.158172: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fd4c855cd50 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
-2025-05-09 18:40:28.158207: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 4070 Ti, Compute Capability 8.9
-2025-05-09 18:40:28.185705: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:255] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
-2025-05-09 18:40:28.315407: I tensorflow/tsl/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
-2025-05-09 18:40:28.369987: I ./tensorflow/compiler/jit/device_compiler.h:186] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
 129/129 [==============================] - 43s 181ms/step - loss: 0.3210 - accuracy: 0.8819 - val_loss: 7.8922 - val_accuracy: 0.7144 - lr: 1.0000e-04
 Epoch 2/1000
 129/129 [==============================] - 23s 157ms/step - loss: 0.3660 - accuracy: 0.9244 - val_loss: 8.4217 - val_accuracy: 0.7299 - lr: 1.0000e-04

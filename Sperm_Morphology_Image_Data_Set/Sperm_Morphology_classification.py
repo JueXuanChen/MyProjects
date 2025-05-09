@@ -173,7 +173,7 @@ plt.plot(history.history['loss'], label='Training Loss')
 plt.plot(history.history['val_loss'], label='Validation Loss')
 plt.legend()
 plt.title('Training and Validation Loss')
-plt.savefig('Sperm_class_model_Acc_loss.png')
+plt.savefig('Sperm_class_model_Acc_Loss.png')
 plt.show()
 
 

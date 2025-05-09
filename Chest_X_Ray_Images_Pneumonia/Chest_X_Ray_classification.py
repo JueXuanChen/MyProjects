@@ -216,7 +216,7 @@ sns.heatmap(cm
             , annot=True
             , fmt='d'
             , cmap='Blues'
-            , xticklabels=['0', '1']  # Assuming these correspond to Normal, Pneumonia
+            , xticklabels=['0', '1']
             , yticklabels=['0', '1']
             )
 plt.xlabel('Predicted Label')

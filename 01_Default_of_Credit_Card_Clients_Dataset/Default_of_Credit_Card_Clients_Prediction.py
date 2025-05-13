@@ -110,7 +110,7 @@ plt.plot(history.history['loss'], label='Training Loss')
 plt.plot(history.history['val_loss'], label='Validation Loss')
 plt.legend()
 plt.title('Training and Validation Loss')
-plt.save('UCI_Credit_Card_model_Acc_Loss.png')
+plt.savefig('UCI_Credit_Card_model_Acc_Loss.png')
 plt.show()
 
 # 用test set來評估訓練好的模型的預測效能
@@ -130,7 +130,7 @@ sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=range(2), ytickla
 plt.xlabel('Predicted Label')
 plt.ylabel('True Label')
 plt.title('Confusion Matrix')
-plt.save('UCI_Credit_Card_model_CM.png')
+plt.savefig('UCI_Credit_Card_model_CM.png')
 plt.show()
 
 

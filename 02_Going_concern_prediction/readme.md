@@ -1,7 +1,7 @@
 # Going Concern Predction Dataset
 
 ## Description
-* Using Going Concern Predction Dataset to trainig neural network model for going concern predction
+* Using data such as company financial ratios and size indicators to train neural network model for going concern predction
 * **Overall accuracy for testing up to 86.36%**
 
 ## Data

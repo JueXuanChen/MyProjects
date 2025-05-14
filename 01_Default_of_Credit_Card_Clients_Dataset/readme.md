@@ -1,7 +1,7 @@
 # Default of Credit Card Clients Dataset
 
 ## Description
-* Using Default of Credit Card Clients Dataset to trainig neural network model for Default payment prediction
+* Using Default of Credit Card Clients Dataset to training neural network model for Default payment prediction
 * **Overall accuracy for testing up to 79.81%**
 
 ## Data

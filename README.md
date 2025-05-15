@@ -13,7 +13,7 @@
   * 結果：對於測試集的準確率達86.36%
 
 ### **財務指標分群分析** (03_Financial_Indicators_Clustering)
-  * 目標：利用財務指標資料對各公司進行K-means分析
+  * 目標：利用財務指標資料對各公司進行K-means分析，來評估財務體質不錯的公司
   * 技術：Python, Numpy, Pandas, Sklearn
 
 ## 醫學影像辨識深度學習模型
